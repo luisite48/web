@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap);
+.pody{
+    background: url(img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+form{
+    margin-top: 150px;
+    width: 500px;
+    border: 2px solid #d987ff;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h2{
+    font-family:  'Dancing Script';
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    float: right;
+    background: blueviolet;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    opacity: .7;
+}
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+a{
+    float: right;
+    background: blueviolet;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+a:hover{
+    opacity: .7;
+}

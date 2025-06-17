@@ -1,0 +1,30 @@
+p{
+    text-align: justify;
+}
+.du{
+    width: 300px;
+}
+#about .card-1{
+    max-width: 600px;
+    width: 90%;
+    background: rgb(219, 142, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+#about .card-1 h5{
+    font-family: cursive;
+    font-size: 28px;
+}
+#about{
+    min-height: 100vh;
+}
+
+
+.card-1:hover{
+    box-shadow: 0 5px 15px rgba(20, 150, 234, .5 );
+    transform: translate(25px);
+}

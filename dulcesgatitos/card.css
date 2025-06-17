@@ -1,0 +1,72 @@
+.ody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #a1acf3;
+    
+}
+
+.car{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+.car:hover{
+    box-shadow: 0 5px 15px rgba(20, 150, 234, .5 );
+    transform: translate(-50px);
+}
+.car .head{
+    height: 125px;
+    width: 100%;
+    position: relative;
+
+}
+.car .head .circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #a9cce3;
+    bottom: 0;
+}
+.car .head .imj{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.car .head .imj .im{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.car .description{
+    height: 200px;
+    padding: 40px 20px 20px 20px;
+    border-bottom: solid 1px rgb(6, 74, 76 .18);
+    text-align: center;
+
+}
+.car .description h3{
+    color: #05383a;
+}
+.car .description h4{
+    color: #05383a;
+}
+.car .description h4{
+    margin-top: 20px;
+    font-size: 15px;
+}

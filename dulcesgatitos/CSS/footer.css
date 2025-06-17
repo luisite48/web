@@ -1,0 +1,84 @@
+/*footer*/
+.noby{
+    font-family: 'Dancing Script';
+    font-size: 16px;
+}
+.footer{
+    background-color: blueviolet;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+}
+.footer-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;    
+}
+.lista{
+    list-style: none;
+
+}
+.elem{
+    padding: initial;
+}
+.elem:hover{
+    color: plum;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+.title{
+    color: rgb(234, 182, 255);
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+.title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    background-color: rgb(234, 182, 255);
+    top: 100%;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+
+}
+.social-content{
+    padding-top: 20px;
+}
+.social-elem{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+
+}
+.social-elem:hover{
+    color: #ca9bff;
+}
+.derecho{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color:blueviolet ;
+    color: white;
+}
+
+@media(max-width:500px){
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+}

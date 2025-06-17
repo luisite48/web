@@ -1,0 +1,74 @@
+.pody{
+   
+    background:url(dulces.jpg)no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search i{
+    font-size: 25px;
+    color: #111111;
+
+}
+.search-txt{
+    display:flex;
+    align-items: center;
+}
+.search-txt i{
+    font-size: 40px;
+    color: aqua;
+}
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+.search-txt h2{
+    margin:20px;
+    font-family: 'Indie Flower';
+    color: rgb(81, 4, 182);  
+    margin-left: 10px;
+}
+.movies{
+    padding: 50px 0 150px 0;
+}
+.movies h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.swiper{
+    width: 100%;
+
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+   
+
+}
+@media(max-width:991px){
+    .pody{
+        min-height: 0vh;
+    }
+    .search{
+        padding: 30px 30px 0 30px;
+    }
+    .movies{
+        padding: 20px;
+    }
+    
+}
